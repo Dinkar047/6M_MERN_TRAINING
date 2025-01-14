@@ -1,0 +1,32 @@
+.container{
+    margin-left: 100px;
+    height: 800px;
+    width: 800px;
+    border: 1px;
+    background-color: black;
+}
+
+.col1{
+    height: 100px;
+    width: 100px;
+    background-color: seashell;
+    float: left;
+    color: black;
+    font-size: 50px;
+      
+}
+.col2{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    float: left;
+    color: white;
+    font-size: 50px;
+    
+}
+.white{
+    padding: 30px;
+}
+.black{
+    padding: 30px;
+}
