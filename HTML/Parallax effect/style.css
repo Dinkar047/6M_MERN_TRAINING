@@ -1,0 +1,21 @@
+.bg1{
+    background-image: url(img2.jfif);
+    height: 700px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+}
+.bg2{
+    background-image: url(img1.jfif);
+    height: 700px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+}
+.bg3{
+    background-image: url(img3.jfif);
+    height: 700px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+}
