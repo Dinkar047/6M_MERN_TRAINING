@@ -1,0 +1,176 @@
+/* Universal selector */
+*{
+    margin: 0px;
+    background-color: whitesmoke ;
+}
+/* header style */
+header{
+    display: flex;
+    justify-content: space-between;
+    color: #ac8241;
+    align-items: center;
+    padding: 20px ;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* nav style */
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+header nav ul li a{
+    text-decoration: none;
+    font-weight: normal;
+    color: black;
+    font-size: 15px;    
+} 
+header nav ul li a:hover{
+    color: #ac8241;
+    text-decoration: underline;
+}
+/* bakgroung image style */
+.bgimg1{
+    background-image: url(images/home-2-hotspot-img1.jpg);
+    height: 900px;
+    background-repeat: no-repeat;    
+    background-size: cover;    
+}
+/* button style */
+.button1 button{
+    position: absolute;
+    top: 125%;
+    left: 50%;      
+    background-color:#f78f10;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    font-size: 16px;    
+}
+/* button hover style */
+.button1 button:hover{
+    background-color: white;
+    color: #e79110;
+    border: solid #e79110;
+    border-width: 1.6px;
+
+}
+/* products style */
+.product{
+    background-color: whitesmoke;
+}
+.product h1{
+    color: #ac8241;
+    margin-top: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.product p{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.products{
+    display: flex;
+    justify-content: space-evenly;
+}
+.items{
+    text-align: center;      
+    padding: 10px;
+    width: 300px;
+     
+}
+.items h2{
+    color: #ac8241;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.items p{
+    color: #ac8241;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.items button{
+    background-color:#f78f10;
+    border: none;
+    padding: 10px;
+    color:white;
+    margin-top: 5px; 
+}
+.items button:hover{
+    background-color: white;
+    color: #e79110;
+    border: solid #e79110;
+    border-width: 1px;
+}
+/* another background image style */
+.bgimg2{
+    background-image: url(images/bg-header.jpg);
+    height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+}
+.overlay{
+    width: 100%;
+    height: 500px;
+    background-color: #ac8241;
+    opacity: 0.4;
+}
+/* About Us style */
+.aboutus h1{
+    color: #eca841;
+    margin-top: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+.description{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    padding: 10px;
+    text-align: justify;
+    gap: 20px;
+}
+/* review style */
+.reviews{
+    text-align: center;
+    padding: 10px 10px;
+    background-color: #ac8241;
+    margin-top: 10px;    
+}
+.ul{
+    background-color: #ac8241;
+    text-align: right;
+    color: #eedabb;
+}
+.reviews h2{
+    background-color: #ac8241;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;   
+}
+.reviews p{
+    background-color: #ac8241;
+    color: white;
+    font-style: italic;
+}
+.lr{
+    background-color: #ac8241;
+    text-align: left;
+    color: #eedabb;
+} 
+footer {
+    text-align: center;
+    background-color:white;
+    color: #000;
+}
+/* footer style */
+footer a {
+    color: rgb(190, 110, 5);
+    text-decoration: none;
+    
+}    
