@@ -1,0 +1,112 @@
+/* dots sizing */
+.dot{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: cyan;
+    border-radius: 20px;
+}
+/* Dots Positioning */
+.dot1 {
+    margin-top: 80px;
+    margin-left: 600px;
+    
+}
+.dot2 {
+    margin-top: 200px;
+    margin-left: 750px;
+    
+}
+.dot3{
+    margin-top: 380px;
+    margin-left: 700px;
+}
+.dot4{
+    margin-top: 380px;
+    margin-left: 510px;
+}
+.dot5{
+    margin-top: 200px;
+    margin-left: 460px;
+}
+/* Moving dot styling */
+.dot6{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    background-color: rgb(15, 102, 102);
+    box-shadow: 0 0 8px 1px aqua;
+    animation-name: path;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+/* giving keyframes to move dot */
+@keyframes path{
+    0%{
+        top:80px;
+        left: 606px;
+    }
+    20% {
+        top: 388px;
+        left: 708px;
+    }
+    40% {
+        top: 205px;
+        left: 462px;
+    }
+    60% {
+        top: 207px;
+        left: 761px;
+    }
+    80% {
+        top: 388px;
+        left: 513px;
+    }
+    100% {
+        top: 80px;
+        left: 606px;
+    }
+}
+/* line styling */
+.line {
+    position: absolute;
+    width: 2px;
+    background: lightgray;
+    transform-origin: top left;
+    z-index: -10;
+  }
+
+
+  /* adjusting lines   */
+.line1 { 
+    margin-top: 110px;
+    margin-left: 610px;
+    height: 45%;
+    transform: rotate(17deg);
+}
+  .line2 {
+    margin-top: 220px;
+    margin-left: 760px;
+    height: 45%;
+    transform: rotate(90deg);
+}
+  .line3 { 
+    margin-top: 400px; 
+    margin-left: 515px; 
+    height: 46%; 
+    transform: rotate(-125deg);
+}
+  .line4 { 
+    margin-top: 232px; 
+    margin-left: 492px; 
+    height: 45%; 
+    transform: rotate(-52deg);
+}
+  .line5 { 
+    margin-top: 116px; 
+    margin-left: 630px; 
+    height: 45%;; 
+    transform: rotate(-17deg);
+}
