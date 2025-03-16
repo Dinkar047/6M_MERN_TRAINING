@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         #divcontainer {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            gap: 10px; 
+        }
+    </style>
+</head>
+<body>
+    <label for="">Enter any Number</label>
+    <input type="number" id="divs" placeholder="Enter a number">
+    <button onclick="showDivs()">Click</button>
+    <div class="margin" id="divcontainer"></div>
+    <Script>
+        function showDivs(){
+            let num=parseInt(document.getElementById("divs").value)
+            document.getElementById("divcontainer").innerHTML=""            
+            for(let i=0; i< num; i++){
+                let div= document.createElement("div")
+                if (num % 2 == 0){
+                div.style.backgroundColor='red';
+                div.style.height= '100px';
+                div.style.width='100px';
+            } else{
+                div.style.backgroundColor='yellow';
+                div.style.height= '100px';
+                div.style.width='100px';
+            }
+            divcontainer.appendChild(div);
+            }         
+        }
+    </Script>
+</body>
+</html>

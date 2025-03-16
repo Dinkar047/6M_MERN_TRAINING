@@ -1,0 +1,15 @@
+*{
+    margin: 0px;
+}
+.bgimg{
+    background-image: url(images/zomatoimg.avif);
+    height: 50%;
+}
+.link{
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    color: white;  
+}

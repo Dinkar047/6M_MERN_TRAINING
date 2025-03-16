@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1 id="calculate"></h1>
+    <button onclick="adding()">Click to Start</button>
+    <script>
+        function adding(){
+        let  num1=parseInt(prompt("Enter First Value"));
+       
+        let num2=parseInt(prompt("Enter Second value"));
+       
+        let sum=num1+num2;    
+        document.getElementById("calculate").innerHTML="First Number ="+num1+"<br>"+"Second Number="+num2+"<br>"+"<u>"+sum+"</u>";
+       
+        }        
+    </script>
+</body>
+</html>
